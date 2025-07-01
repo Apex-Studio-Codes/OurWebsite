@@ -32,7 +32,7 @@ footer{
 .hero {
     text-align: center;
     margin-bottom: 0px;
-    background-image: url('background.png'); /* Replace with your image path */
+    background-image: url('images/background.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@ footer{
 .hero2 {
     text-align: center;
     margin-bottom: 0px;
-    background-image: url('background.png'); /* Replace with your image path */
+    background-image: url('images/background.png'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -118,8 +118,13 @@ h3{
     outline: black solid;
     outline-width: 3px;
 }
+.abt-link:hover {
+    color: #3d3d3d;
+    transition: 0.3s ease-in-out;
+    background-color: rgb(207, 207, 207);
+}
 .spacer {
-    height: 2.5vh; /* Adjust the height as needed */
+    height: 1.5vh; /* Adjust the height as needed */
     background-color: #0471A6;
     width: 100%;
 }
@@ -191,14 +196,35 @@ h3{
 }
 .services-content {
     background: #f5f5f5;
-    border-radius: 18px;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
     padding: 32px;
     text-align: center;
-    margin: 10px auto;
 }
 .services-content p4{
     color: #555;
     font-size: 1.1rem;
-    margin-bottom: 24px;
+}
+.process{
+    background: rgb(238, 238, 238);
+    padding: 32px 24px;
+    text-align: center;
+    list-style-type: none;
+}
+ol{
+    color: #555;
+    font-size: 1.1rem;
+    list-style-type: none;
+}
+.service-item {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.service-item img {
+    max-width: 100%;
+    height: 500px;
+    border-radius: 8px;
 }
