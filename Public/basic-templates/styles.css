@@ -89,3 +89,20 @@ footer {
     font-size: 14px;
     color: #343a40;
 }
+.gallery .btn {
+    background-color: #0471A6; /* Blue */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.gallery .btn:hover {
+    background-color: #035a8c; /* Darker Blue */
+    transition: ease-in-out 0.3s;
+}
