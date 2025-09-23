@@ -86,119 +86,66 @@ footer{
     display: block;
 }
 
-.services-section {
-    padding: 32px;
+.services-container {
+    max-width: 1200px;
+    margin: 40px auto 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-container h1 {
+    width: 100%;
     text-align: center;
-    background-color: #eeeeee;
-}
-
-.services-section h1{
-    font-size: 2.5rem;
-    margin-bottom: 16px;
-    text-align: center;
-    color: #3d3d3d;
-}
-
-.services-section h2 {
-    color: #3d3d3d;
-    font-size: 2rem;
-    margin-bottom: 12px;
-}
-
-.services-section p {
-    color: #555555;
-    font-size: 1.1rem;
-    line-height: 1.6;
     margin-bottom: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.services-section ul {
-    list-style-type: none;
-    padding-left: 20px;
-    text-align: center;
-    display: inline-block;
-    margin-top: 0;
-}
-
-/*website developement*/
-.website-dev h2{
-    color: #3d3d3d;
     font-size: 2rem;
-    margin-bottom: 12px;
-    margin-top: 40px;
-    text-align: center;
-}
-
-.website-dev p {
-    color: #555555;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-/*Network config and management*/
-.network h2{
     color: #3d3d3d;
-    font-size: 2rem;
-    margin-bottom: 12px;
-    margin-top: 40px;
-    text-align: center;
 }
-.network p {
-    color: #555555;
-    font-size: 1.1rem;
-    line-height: 1.6;
+
+.services-container p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.service {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 20px;
     margin-bottom: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px); /* Takes up half the container width minus margin */
+    box-sizing: border-box;
 }
 
-
-.support h2{
-    color: #3d3d3d;
-    font-size: 2rem;
-    margin-bottom: 12px;
-    margin-top: 40px;
+.service h2{
+    color: #0471A6;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
     text-align: center;
 }
-.support p {
-    color: #555555;
-    font-size: 1.1rem;
-    line-height: 1.6;
+
+.service p{
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.email{
+    color: #0471A6;
+    font-weight: bold; 
+    text-decoration: none;
+}
+
+.logo{
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-
-.security h2{
-    color: #3d3d3d;
-    font-size: 2rem;
-    margin-bottom: 12px;
-    margin-top: 40px;
-    text-align: center;
-}
-.security p {
-    color: #555555;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
 }

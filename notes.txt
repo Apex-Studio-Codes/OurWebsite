@@ -5,3 +5,46 @@
             <h2>Technical Support</h2>
 
 
+Here at Apex Studio Codes we offer a range of technical solutions for businesses of any scale in all areas of the technical industry. Our goal is to provide the best service in improving the technical world and help to build up businesses technical infrastructure. Whether you are looking for simple technical support or a complete network setup and reconfiguration we can help you to discover your businesses technical potential, our team have hands on experience with a varity of skills including; network setup & administration, website developement and design, and technical support. These skills are important to us at Apex Studio Codes as we strive to provide the best customer service we can.
+
+If you have any questions or enquires about Apex Studio Codes, contact us at support@apexstudiocodes.co.uk to speak to one of our team members who will provide you with all the help and services you require.
+
+
+
+
+
+<section class="services-section">
+        <h1>Our Services</h1>
+        <p>At Apex Studio Codes, we offer a comprehensive range of web development and design services tailored to meet your unique needs. Our dedicated team of experts is committed to delivering high-quality solutions that help you achieve your online goals. Explore our key services below:</p>
+    </section>
+    <!-- Service 1: Custom Website Design -->
+    <section class="website-dev">
+        <h2>Website Development</h2>
+        <p>We offer comprehensive website development and management options using wordpress or code based depending on preference, our goal is to create you the website that you imagine. To ensure we meet your goals you will work directory with the creator of the website to detail the functions and goals of your website, making you website to your wants and needs.</p>
+        <p>We offer very competitive pricing, if you would like to enquire about any website development please contact us at  <a href="mailto:support@apexstudiocodes.com">Support@apexstudiocodes.co.uk</a> </p>
+        <!--When we have clients can put them here to show who we provide these services to.-->
+    </section>
+
+    <!--Service 2: Network Configuration and Management-->
+    <section class="network">
+        <h2>Network Configuration and Management</h2>
+        <p>We provide expert network configuration and management services to ensure your systems are secure, efficient, and reliable. Our team can assist with setting up, monitoring, and maintaining your network infrastructure to support your business operations.</p>
+        <p>For more information or to discuss your network needs, please contact us at  <a href="mailto:support@apexstudiocodes.co.uk">Support@apexstudiocodes.co.uk</a> </p>
+        <!--When we have clients can put them here to show who we provide these services to.-->
+    </section>
+
+    <!--Service 3: IT Support and Consulting-->
+    <section class="support">
+        <h2>IT Support and Consulting</h2>
+        <p>Our IT support and consulting services are designed to help you navigate the complexities of technology. We offer tailored solutions to optimize your IT infrastructure, improve efficiency, and address any technical challenges you may face.</p>
+        <p>To learn more about our IT support and consulting services, please reach out to us at   <a href="mailto:support@apexstudiocodes.co.uk">Support@apexstudiocodes.co.uk</a> </p>
+        <!--When we have clients can put them here to show who we provide these services to.-->
+    </section>
+
+    <!--Service 4: Cyber Security Awareness Training and courses-->
+    <section class="security">
+        <h2>Cyber Security Awareness Training and courses</h2>
+        <p>We offer comprehensive cyber security awareness training and courses to help individuals and organizations protect themselves against cyber threats. Our training programs cover essential topics such as phishing, password security, data protection, and best practices for online safety.</p>
+        <p>For more information about our cyber security training programs, please contact us at   <a href="mailto:support@apexstudiocodes.co.uk">Support@apexstudiocodes.co.uk</a> </p>
+        <!--When we have clients can put them here to show who we provide these services to.-->
+    </section>
