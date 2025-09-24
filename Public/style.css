@@ -8,9 +8,6 @@ h1{
     color: #ffffff;
     text-align: center;
     font-size: 2rem;
-    position: absolute;
-    margin-top: 15%;
-    margin-left: 10%;
 }
 h2{
     color: #ffffff;
@@ -18,15 +15,56 @@ h2{
     font-size: 1.5rem;
     margin-top: 20px;
     padding: 10px;
-    position: absolute;
-    margin-top: 15%;
-    margin-left: 45%;
 }
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Add this */
+    padding: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    min-height: 100vh; /* Add this */
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0; /* Change this from 20px */
+    position: relative; /* Add this */
+    top: 50%; /* Add this */
+    transform: translateY(-50%); /* Add this */
+}
+
+.banner h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    position: absolute;
+    left: 10%;
+    top:40%; /* Change from bottom to top */
+    transform: translateY(-50%); /* Add this */
+}
+
+.banner h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    position: absolute;
+    right: 5%;
+    top: 40%; /* Change from bottom to top */
+    transform: translateY(-50%); /* Add this */
+    max-width: 50%;
+}
+
 footer{
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    background-color: #0471A6;
+    background-color: #3f3f3f;
     color: white;
 }
 .hero {
@@ -328,32 +366,6 @@ p7 {
 .btn:hover {
     background-color: #035a8c;
 }
-.templates{
-    padding: 20px;
-    text-align: center;
-    margin: 20px auto;
-    width: 75%;
-}
-.templates2{
-    background-color: #ffffff;
-    text-align: center;
-}
-.template-item img {
-    max-width: 100%;
-    height: 100px;
-    margin: 0;
-}
-.template-item p6{
-    font-weight: bold;
-    color: #555;
-    font-size: 1.1rem;
-    margin-top: 20px;
-    padding: 15px;
-    display: block;
-    text-align: center;
-    margin: 20px auto;
-    width: 60%;
-}
 p8 {
     font-weight: bold;
     color: #555;
@@ -368,7 +380,7 @@ p8 {
 .team-member {
     text-align: center;
     display: inline-block;
-    width: 20%;
+    width: 30vh;
     margin: 20px auto;
     padding: 20px;
     background: #fff;
@@ -376,9 +388,9 @@ p8 {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     margin: 25px;
 }
-.team-member img {
-    max-width: 100%;
-    height: 150px;
+.teamimg {
+    width: 30vh;
+    height: 30vh;
     border-radius: 8px;
 }
 .our-team {
@@ -473,6 +485,7 @@ footer a {
 }
 .btn-face:hover{
     background-color: #003858;
+    transform: scale(1.05);
 }
 
 .btn-link{
@@ -491,4 +504,5 @@ footer a {
 }
 .btn-link:hover{
     background-color: #064d70;
+    transform: scale(1.05);
 }
