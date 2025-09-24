@@ -456,3 +456,39 @@ footer a {
     margin-top: 10px;
     display: block;
 }
+
+.btn-face{
+    display: inline-block;
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px;
+    width: 20vh;
+}
+.btn-face:hover{
+    background-color: #003858;
+}
+
+.btn-link{
+    display: inline-block;
+    background-color: #0e76a8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px;
+    width: 20vh;
+}
+.btn-link:hover{
+    background-color: #064d70;
+}
