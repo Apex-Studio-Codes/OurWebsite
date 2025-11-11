@@ -308,7 +308,9 @@ footer a {
 }
 
 .btn-face{
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background-color: #4f4f4f;
     color: white;
     padding: 10px 15px;
@@ -321,6 +323,7 @@ footer a {
     margin: 10px;
     width: 40vh;
     height: 10vh;
+    text-decoration: none;
 }
 .btn-face:hover{
     background-color: #282828;
