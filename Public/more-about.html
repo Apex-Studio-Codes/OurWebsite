@@ -3,16 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; connect-src 'self'; form-action 'self'">
+    <meta name="referrer" content="no-referrer">
     <title>Apexstudiocodes - More about us</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="hero-bar"></div>
-<script>
-fetch('hero.html')
-  .then(res => res.text())
-  .then(html => document.getElementById('hero-bar').innerHTML = html);
-</script>
 <section class="our-team" id="our-team">
     <h3>Our Team</h3>
     <p8>Meet the talented individuals behind Apex Studio Codes. Our team is composed of experienced developers, designers, and project managers who are passionate about creating exceptional digital experiences. Here below are the founders of Apex Studio Codes!</p8>
@@ -75,6 +72,6 @@ fetch('hero.html')
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
