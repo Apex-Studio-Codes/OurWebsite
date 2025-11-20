@@ -59,10 +59,22 @@ a {
 }
 
 .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
     font-weight: 800;
     text-decoration: none;
     letter-spacing: 0.02em;
     color: #fefefe;
+}
+
+.brand-logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.16);
+    padding: 6px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
 }
 
 .nav-links {
@@ -208,6 +220,31 @@ a {
     border: 1px solid var(--border);
     border-radius: 12px;
     padding: 12px;
+}
+
+.logo-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 12px;
+    align-items: center;
+    padding: 14px 16px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: 0 10px 36px rgba(12, 19, 36, 0.12);
+}
+
+.logo-mark {
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    background: #f0f4ff;
+    padding: 8px;
+    border: 1px solid var(--border);
+}
+
+.logo-copy {
+    color: var(--muted);
 }
 
 .about-content {
