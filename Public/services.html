@@ -4,17 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; connect-src 'self'; form-action 'self'">
+    <meta name="referrer" content="no-referrer">
     <title>Apexstudiocodes - Services</title>
     <link rel="stylesheet" href="services.css">
 </head>
 
 <body>
     <div id="hero-bar"></div>
-<script>
-fetch('hero.html')
-  .then(res => res.text())
-  .then(html => document.getElementById('hero-bar').innerHTML = html);
-</script>
 
 <main>
     <div class="services-container">
@@ -46,11 +43,10 @@ fetch('hero.html')
         </div>
 </main>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <footer>
+        <p>&copy; 2025 Apex Studio Codes. All rights reserved. | <a href="#" id="privacyPolicyLink">Privacy Policy</a></p>
+    </footer>
 </body>
-
-<footer>
-    <p>&copy; 2025 Apex Studio Codes. All rights reserved. | <a href="#" id="privacyPolicyLink">Privacy Policy</a></p>
-</footer>
 
 </html>
