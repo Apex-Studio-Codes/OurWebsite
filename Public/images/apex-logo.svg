@@ -1,0 +1,18 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Apex Studio Codes logo</title>
+  <desc id="desc">Stylized laptop with a code badge and the text Apex Studio Codes.</desc>
+  <rect width="640" height="640" fill="#f3f4f6"/>
+  <g transform="translate(70 120)">
+    <rect x="32" y="40" width="436" height="270" rx="24" fill="#9aa0ab"/>
+    <rect x="54" y="66" width="392" height="214" rx="16" fill="#f3f4f6"/>
+    <rect x="0" y="302" width="500" height="60" rx="16" fill="#7f8692"/>
+    <rect x="62" y="322" width="376" height="16" rx="8" fill="#f3f4f6" opacity="0.85"/>
+    <g transform="translate(175 116)">
+      <circle cx="75" cy="75" r="75" fill="#7f8692"/>
+      <circle cx="75" cy="75" r="60" fill="#f3f4f6"/>
+      <path d="M70 52L50 72L70 92" stroke="#7f8692" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M80 52L100 72L80 92" stroke="#7f8692" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <text x="320" y="525" text-anchor="middle" fill="#7f8692" font-family="'Segoe UI', 'Inter', system-ui, sans-serif" font-size="48" font-weight="700" letter-spacing="1">Apex Studio Codes</text>
+</svg>
