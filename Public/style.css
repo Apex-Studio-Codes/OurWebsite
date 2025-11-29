@@ -430,35 +430,128 @@ footer a {
 }
 
 .our-team {
-    padding: 48px 18px 36px;
+    padding: 64px 18px 48px;
+    background: radial-gradient(circle at 10% 20%, rgba(59, 116, 242, 0.12), transparent 32%), radial-gradient(circle at 90% 10%, rgba(15, 184, 201, 0.12), transparent 36%), linear-gradient(180deg, #eef2fb, #dfe6f5);
+}
+
+.team-shell {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    gap: 24px;
+}
+
+.team-header {
+    display: grid;
+    gap: 12px;
     text-align: center;
-    background: linear-gradient(180deg, #eef2fb, #dfe6f5);
 }
 
-.team-member {
-    display: inline-block;
-    width: 240px;
-    margin: 16px;
-    padding: 14px;
-    background: #ffffff;
-    border-radius: 12px;
+.team-header h3 {
+    font-size: clamp(1.6rem, 3vw, 2.1rem);
+}
+
+.section-lead {
+    margin: 0 auto;
+    max-width: 760px;
+    color: var(--muted);
+}
+
+.team-pills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pill {
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.86);
     border: 1px solid var(--border);
+    border-radius: 999px;
     color: var(--text);
-    box-shadow: 0 10px 24px rgba(12, 19, 36, 0.08);
+    font-weight: 600;
 }
 
-.teamimg {
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+}
+
+.team-card {
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 14px;
+    display: grid;
+    gap: 10px;
+    box-shadow: 0 12px 32px rgba(12, 19, 36, 0.08);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.2s ease;
+}
+
+.team-card:hover,
+.team-card:focus-within {
+    transform: translateY(-2px);
+    border-color: rgba(59, 116, 242, 0.35);
+    box-shadow: 0 16px 36px rgba(12, 19, 36, 0.12);
+}
+
+.avatar-frame {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: #f7f9ff;
+}
+
+.team-avatar {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
+    display: block;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 6px 10px;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.85rem;
+    border-radius: 999px;
+    letter-spacing: 0.02em;
+}
+
+.team-meta h4 {
+    margin-bottom: 4px;
+}
+
+.role {
+    margin: 0 0 6px;
+    color: var(--text);
+    font-weight: 700;
+}
+
+.bio {
+    margin: 0 0 8px;
+    color: var(--muted);
 }
 
 .linkedin {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     color: var(--accent-2);
     text-decoration: none;
-    font-size: 1rem;
-    margin-top: 10px;
-    display: block;
+    font-weight: 700;
+}
+
+.linkedin::after {
+    content: "↗";
+    font-size: 0.9rem;
 }
 
 .modal {
