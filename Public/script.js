@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     initializePrivacyModal();
+    initializeDropdowns();
     loadHeroBar();
 });
 
@@ -74,4 +75,55 @@ function sanitizeHtml(htmlString) {
     });
 
     return parsed.body.innerHTML;
+}
+
+function initializeDropdowns() {
+    const dropdowns = Array.from(document.querySelectorAll('.nav-item.has-dropdown'));
+
+    if (!dropdowns.length) {
+        return;
+    }
+
+    const closeAll = (exception) => {
+        dropdowns.forEach((item) => {
+            if (item === exception) {
+                return;
+            }
+
+            item.classList.remove('open');
+            const toggle = item.querySelector('.dropdown-toggle');
+            if (toggle) {
+                toggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+    };
+
+    dropdowns.forEach((item) => {
+        const toggle = item.querySelector('.dropdown-toggle');
+        const menu = item.querySelector('.dropdown-menu');
+
+        if (!toggle || !menu) {
+            return;
+        }
+
+        toggle.addEventListener('click', (event) => {
+            event.preventDefault();
+            const isOpen = item.classList.contains('open');
+            closeAll();
+            item.classList.toggle('open', !isOpen);
+            toggle.setAttribute('aria-expanded', String(!isOpen));
+        });
+    });
+
+    document.addEventListener('click', (event) => {
+        if (!event.target.closest('.nav-item.has-dropdown')) {
+            closeAll();
+        }
+    });
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            closeAll();
+        }
+    });
 }

@@ -19,7 +19,22 @@
             </a>
             <nav class="nav-links">
                 <a href="#about-content" class="nav-link">About</a>
-                <a href="services.html" class="nav-link">Services</a>
+                <div class="nav-item has-dropdown">
+                    <button class="dropdown-toggle nav-link" type="button" aria-expanded="false" aria-haspopup="true">
+                        Services
+                        <svg aria-hidden="true" focusable="false" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M5.23 7.21a.75.75 0 0 1 1.06.02L10 10.94l3.71-3.71a.75.75 0 1 1 1.06 1.06l-4.24 4.25a.75.75 0 0 1-1.06 0L5.21 8.29a.75.75 0 0 1 .02-1.08z"/>
+                        </svg>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-link" href="services.html">Overview</a>
+                        <a class="dropdown-link" href="Services/Websites.html">Website Development &amp; Hosting</a>
+                        <a class="dropdown-link" href="Services/Networking.html">Network Configuration &amp; Management</a>
+                        <a class="dropdown-link" href="Services/sh-config.html">Software &amp; Hardware Configuration</a>
+                        <a class="dropdown-link" href="Services/IT-Support.html">IT Support &amp; Consulting</a>
+                        <a class="dropdown-link" href="Services/cyber-awareness.html">Cyber Security Awareness</a>
+                    </div>
+                </div>
                 <a href="#contact" class="nav-link">Contact</a>
             </nav>
         </header>
@@ -77,12 +92,73 @@
             </div>
             <a href="more-about.html" class="abt-link">Meet our team →</a>
         </div>
-        <p class="abt-content">Here at Apex Studio Codes we offer a range of technical solutions for businesses of any scale in all areas of the technical industry. Our goal is to provide the best service in improving the technical world and help to build up businesses technical infrastructure. Whether you are looking for simple technical support or a complete network setup and reconfiguration we can help you to discover your businesses technical potential.</p>
-        <p class="abt-content">Our team is built with a variety of skills in different areas of the technical industry to ensure we can provide the best service possible to our customers. We are a small team of highly skilled individuals who are passionate about technology and helping businesses to grow and improve their technical infrastructure.</p>
-        <p class="abt-content">If you have any questions or enquires about Apex Studio Codes, contact us at <a href="mailto:support@apexstudiocodes.com">support@apexstudiocodes.com</a> to speak to one of our team members who will provide you with all the help and services you require.</p>
+        <div class="abt-block">
+            <p>Here at Apex Studio Codes we offer a range of technical solutions for businesses of any scale in all areas of the technical industry. Our goal is to provide the best service in improving the technical world and help to build up businesses technical infrastructure. Whether you are looking for simple technical support or a complete network setup and reconfiguration we can help you to discover your businesses technical potential.</p>
+            <p>Our team is built with a variety of skills in different areas of the technical industry to ensure we can provide the best service possible to our customers. We are a small team of highly skilled individuals who are passionate about technology and helping businesses to grow and improve their technical infrastructure.</p>
+            <p>If you have any questions or enquires about Apex Studio Codes, contact us at <a href="mailto:support@apexstudiocodes.com">support@apexstudiocodes.com</a> to speak to one of our team members who will provide you with all the help and services you require.</p>
+        </div>
+    </section>
+
+    <section class="offer-section" id="services">
+        <div class="section-header">
+            <div>
+                <p class="eyebrow">What we offer</p>
+                <h3>Pick the service you want to explore.</h3>
+            </div>
+        </div>
+        <div class="offer-list">
+            <a class="offer-item" href="Services/Websites.html">
+                <div>
+                    <p class="eyebrow">Web</p>
+                    <h4>Website Development &amp; Hosting</h4>
+                    <p class="muted">Design, builds, and fully managed hosting.</p>
+                </div>
+                <span class="offer-arrow">→</span>
+            </a>
+            <a class="offer-item" href="Services/Networking.html">
+                <div>
+                    <p class="eyebrow">Networks</p>
+                    <h4>Network Configuration &amp; Management</h4>
+                    <p class="muted">Secure setups with monitoring and tuning.</p>
+                </div>
+                <span class="offer-arrow">→</span>
+            </a>
+            <a class="offer-item" href="Services/sh-config.html">
+                <div>
+                    <p class="eyebrow">Devices</p>
+                    <h4>Software &amp; Hardware Configuration</h4>
+                    <p class="muted">Standardized builds and secure deployments.</p>
+                </div>
+                <span class="offer-arrow">→</span>
+            </a>
+            <a class="offer-item" href="Services/IT-Support.html">
+                <div>
+                    <p class="eyebrow">Support</p>
+                    <h4>IT Support &amp; Consulting</h4>
+                    <p class="muted">Friendly help desk plus strategic guidance.</p>
+                </div>
+                <span class="offer-arrow">→</span>
+            </a>
+            <a class="offer-item" href="Services/cyber-awareness.html">
+                <div>
+                    <p class="eyebrow">Security</p>
+                    <h4>Cyber Security Awareness</h4>
+                    <p class="muted">Training that builds safe habits.</p>
+                </div>
+                <span class="offer-arrow">→</span>
+            </a>
+        </div>
     </section>
 
     <section class="contact-content" id="contact">
+        <div class="contact-header">
+            <div>
+                <p class="eyebrow">Contact</p>
+                <h2>Tell us what you need and we will get back fast.</h2>
+                <p class="lead">Email, socials, or the enquiry form—whichever you prefer. We reply from support@apexstudiocodes.co.uk.</p>
+            </div>
+            <p class="contact-note">Typical response time: under one business day.</p>
+        </div>
         <div class="contact-card">
             <div>
                 <p class="eyebrow">Contact us</p>
@@ -103,6 +179,48 @@
                 </ul>
             </div>
         </div>
+
+        <section class="form-shell" id="enquiry">
+            <div class="form-header">
+                <p class="eyebrow">Enquiries</p>
+                <h3>Send us the details and we will email you back.</h3>
+                <p class="lead">Give us the essentials and any links or timelines that matter.</p>
+            </div>
+            <form class="enquiry-form" action="mailto:support@apexstudiocodes.co.uk" method="post" enctype="text/plain">
+                <div class="field">
+                    <label for="name">Full name</label>
+                    <input id="name" name="name" type="text" required placeholder="Your name">
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required placeholder="you@example.com">
+                </div>
+                <div class="field">
+                    <label for="phone">Phone (optional)</label>
+                    <input id="phone" name="phone" type="tel" placeholder="+44 7...">
+                </div>
+                <div class="field">
+                    <label for="service">Service</label>
+                    <select id="service" name="service" required>
+                        <option value="" disabled selected>Select a service</option>
+                        <option>Website Development &amp; Hosting</option>
+                        <option>Network Configuration &amp; Management</option>
+                        <option>Software &amp; Hardware Configuration</option>
+                        <option>IT Support &amp; Consulting</option>
+                        <option>Cyber Security Awareness</option>
+                        <option>Something else</option>
+                    </select>
+                </div>
+                <div class="field full">
+                    <label for="message">How can we help?</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Share details, goals, timelines, or links."></textarea>
+                </div>
+                <div class="form-actions">
+                    <button class="btn primary" type="submit">Send enquiry</button>
+                    <p class="form-note">Submitting will open your email client to send directly to support@apexstudiocodes.co.uk.</p>
+                </div>
+            </form>
+        </section>
     </section>
 
      <footer>
