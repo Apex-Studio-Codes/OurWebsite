@@ -185,11 +185,11 @@ a {
 }
 
 .hero-copy {
-    background: rgba(8, 14, 28, 0.6);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 16px;
-    padding: 18px 18px 20px;
-    backdrop-filter: blur(4px);
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 4px 0 8px;
+    backdrop-filter: none;
 }
 
 .hero-copy h1 {
@@ -371,11 +371,11 @@ a {
 .abt-block {
     margin: 12px 0;
     font-size: 1.02rem;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), #f6f8fd);
-    border: 1px solid rgba(31, 42, 61, 0.1);
-    border-radius: 18px;
-    padding: 18px 20px;
-    box-shadow: 0 12px 36px rgba(12, 19, 36, 0.08);
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
     display: grid;
     gap: 12px;
 }
